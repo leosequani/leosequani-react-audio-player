@@ -139,8 +139,6 @@ const Listofsongs = () => {
                             <button className="btn btn-primary m-1" type="button"onClick={(e) => {volumeUp()}}><i className="fas fa-volume-up"></i></button>
                             <button className="btn btn-primary m-1" type="button" onClick={(e) => {volumeDown()}}><i className="fas fa-volume-down"></i></button>
                             <button className="btn btn-primary m-1 disabled" type="button">{Math.floor(volume*100)}%</button>
-                            <button className={`${loop==false?"btn btn-primary m-1":"btn btn-primary m-1 active"}`} type="button" onClick={(e) => {loopSong()}}><i class="fas fa-volume-off"></i></button>
-
                             
                         </div>
                 </>
